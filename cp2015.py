@@ -64,7 +64,7 @@ def solve_model(data):
     X_njp = jnp.array(data["X_nj"])
     D_n = jnp.array(data["D_n"])
     tau_nijp = jnp.array(data["tau_nijp"])
-    d_nij_hat = jnp.array(data["d_nij_hat"])
+    d_nij_hat = jnp.ones((N, N, J))
 
     # Get the parameters from the dataset
     theta_j = jnp.array(data["theta_j"])
