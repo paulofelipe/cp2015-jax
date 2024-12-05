@@ -15,7 +15,7 @@ The data is a dictionary with the following keys:
 * sectors - A list of size J with the names of the sectors in the same order as they appear in the data.
 * X_nj - An array of size N x J with the values of the total expenditure in each region and sector (gross of import taxes).
 * D_n - An array of size N with the values of the defict in each region.
-* wL_n - An array of size N with the values of the wage bill in each region.
+* wL_n - An array of size N with the values of the value added in each region.
 * pi_nij - An array of size N x N x J with the shares in trade by importer, exporter and sector. 
 * tau_nij - An array of size N x N x J with the initial tariffs by importer, exporter and sector.
 * tau_nij_bln - An array of size N x N x J with the tariffs by importer, exporter and sector for the baseline scenario.
