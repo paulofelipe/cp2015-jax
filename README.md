@@ -1,6 +1,6 @@
 # Caliendo and Parro (2015) - JAX
 
-This repository presents the implementation of the solution of the model presented in Caliendo and Parro (2015) using the JAX library of Python.
+This repository presents the implementation of the solution of the model presented in [Caliendo and Parro (2015)](https://academic.oup.com/restud/article/82/1/1/1547758) using the JAX library of Python.
 
 The code replicates Table 2 of estimated welfare effects for NAFTA.
 
